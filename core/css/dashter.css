@@ -1,0 +1,146 @@
+#user_results_box .inside, 
+#recently_viewed_box .inside, 
+#users_box .inside, 
+#results_box .inside,
+#user_recent_engagement_box .inside,
+#search_box .inside
+{
+	margin: 0;
+	padding: 0;
+}
+
+#results_box .widefat {
+	border: 0;
+}
+
+#results_box p {
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+.dashter_user {
+	float: left;
+	text-align: center; 
+	margin: 0;
+	padding: 3px;
+}
+
+.dashter_user .user-image {
+	display: block;
+	padding: 8px;
+	border: solid 1px #ccc;
+	margin: 0;
+}
+
+.dashter_user .user-name {
+	margin: 3px 0 1px;
+	padding: 0;
+	font-size: 11px;
+}
+
+.dashter_user .full-view {
+	margin: 0;
+	padding: 0;
+	font-size: 9px;
+}
+
+.dashter_header_alert{
+	color: #D54E21 !important;
+	/* border-color: #D54E21; */
+	margin: 0px 10px 0 0;
+}
+
+#dashter_curatedcomments {
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
+	font-size: 11pt;
+}
+
+.postbox-container .meta-box-sortables {
+	min-height: 50px;
+}
+
+.subsubsub {
+	margin: 5px 0 0 10px;
+}
+
+#userSearchTerm {
+	margin: 10px;
+}
+
+.userImageDisplay {
+	border: solid 1px #ccc;
+	padding: 1%;
+	margin: 1%;
+}
+.displayRight {
+	float: right ! important;
+}
+
+/* POST META BOXES */
+.mentionchecklist {
+	padding: 2px;
+	font-size: 12px;
+	margin-left: 14px;
+	overflow: auto;
+}
+.mentionchecklist span a {
+	background: url("images/xit.gif") no-repeat scroll 0 0 transparent;
+}
+.mentionchecklist span a:hover {
+	background: url("images/xit.gif") no-repeat scroll -10px 0 transparent;
+}
+.mentionchecklist span {
+	cursor: default;
+	display: block;
+	float: left;
+	font-size: 11px;
+	line-height: 1.8em;
+	margin-right: 25px;
+	white-space: nowrap;
+}
+.mentionchecklist span a {
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 10px;
+	margin: 6px 0 0 -12px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -9999px;
+	width: 10px;
+}
+
+/* STREAM */
+.stream_controls {
+	display: none;
+	padding: 3px;
+	margin: 10px 0 3px 0;
+	border: solid 1px #ccc;
+}
+.stream_postdata {
+	padding: 5px 0;
+	margin: 2px 0;
+	font-size: 8pt;
+	color: #555;
+}
+.stream_taglist {
+	font-size: 8pt;
+	padding: 5px 0;
+	margin: 2px 0;
+}
+span.stream_tag{
+	display: inline-block;
+	font-size: 8pt;
+	white-space: nowrap;
+	margin: 0 2px 0 0;
+	padding: 0 2px 0 0;
+}
+div.postbox_results {
+	padding: 5px 0;
+	margin: 10px 0 5px 0;
+}
+.postbox_results p {
+	padding: 0 !important;
+	margin: 0 !important;
+}

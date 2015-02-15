@@ -1,0 +1,38 @@
+#screen-meta, 
+#adminmenuback, 
+#adminmenuwrap, 
+#wphead,
+#footer {
+	display: none;
+	visibility: hidden;
+}
+
+#wpcontent {
+	margin: 0;
+}
+
+#wpbody {
+	margin: 10px;
+}
+
+h3 {
+	margin: 0 0 1em;
+}
+
+#wpbody-content {
+	padding-bottom: 0;
+}
+
+body.wp-admin {
+	min-width:300px;
+}
+
+html, body {
+	height: 180px;
+}
+
+body { 
+	/* POPUP LOADING INDICATOR
+	Each popup has a forced "body background" set */
+	background: url('../../images/dashter-ajax-loading.gif') no-repeat bottom center ;
+}
